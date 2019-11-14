@@ -17,6 +17,8 @@ fi
 
 cd $bundlePath
 
+rm -rf nerdtree
+
 git clone https://github.com/scrooloose/nerdtree.git
 
 source ~/.vimrc
